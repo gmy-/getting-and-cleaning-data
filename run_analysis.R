@@ -11,7 +11,7 @@ testSet <- tbl_df(read.table("test/X_test.txt"))
 trainingLabels <- tbl_df(read.table("train/y_train.txt"))
 testLabels <- tbl_df(read.table("test/y_test.txt"))
 
-## read correspondence beween class labels and activity names
+## read correspondence between class labels and activity names
 activityLabels <- read.table("activity_labels.txt")
 
 ## read names of the variables of the feature vector
