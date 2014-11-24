@@ -17,7 +17,7 @@ activityLabels <- read.table("activity_labels.txt")
 ## read names of the variables of the feature vector
 features <- read.table("features.txt", colClasses = c("integer", "character"))
 
-## read information the subject who performed the activity for training and test sets
+## read information about the subject who performed the activity for training and test sets
 trainingSubject <- read.table("train/subject_train.txt", colClasses = "factor")
 testSubject <- read.table("test/subject_test.txt", colClasses = "factor")
 
