@@ -62,7 +62,3 @@ summarized <- summarise_each(byActivityAndSubject, funs(mean), -c(1:3))
 
 ## write the tidy data set created in step 5 of the assignment instructions
 write.table(summarized, file = "step5dataset.txt", row.names = FALSE)
-
-
-
-
