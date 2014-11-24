@@ -15,7 +15,14 @@ The original raw data can be downloaded from the following web site:
 
 ## External Dependencies
 
-The code uses 'dplyr' package to simplify the operations with data frames.
+The code uses 'dplyr' package to simplify operations with data frames.
+
+
+## Execution
+
+In order to work correctly the code requires the original data set to be placed in the "UCI HAR Dataset" directory. To achieve this you should extract the original archive "getdata-projectfiles-UCI HAR Dataset.zip" to the current working directory.
+
+The tidy data set, which is created in the step 5 of the assignment instructions, is stored in step5dataset.txt in the current working directory.
 
 
 ## The Logic Behind The Code
@@ -35,10 +42,3 @@ The code is well-documented, so that it is easily possible to read the comments 
 11. Group data by activity and subject.
 12. Create independent tidy data set with the average of each variable for each activity and each subject. During the process of summarizing the data the information about the set is lost - this behavior is considered acceptable since the assignment does not mention that the set should be taken into account, so it is ignored (step 5 of the assignment descriptions).
 13. Write the tidy data set created in the previous step to the output file.
-
-
-## Execution
-
-In order to work correctly the code requires the original data set to be placed in the "UCI HAR Dataset" directory. To achieve this you should extract the original archive "getdata-projectfiles-UCI HAR Dataset.zip" to the current working directory.
-
-The tidy data set, which is created in the step 5 of the assignment instructions, is stored in step5dataset.txt in the current working directory.
