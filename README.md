@@ -15,7 +15,7 @@ The original raw data can be downloaded from the following web site:
 
 ## External Dependencies
 
-The code uses 'dplyr' package to simplify operations with data frames.
+The code relies on 'dplyr' package in order to simplify operations with data frames.
 
 
 ## Execution
@@ -25,7 +25,7 @@ In order to work correctly the code requires the original data set to be placed 
 The tidy data set, which is created in the step 5 of the assignment instructions, is stored in step5dataset.txt in the current working directory.
 
 
-## The Logic Behind The Code
+## Logic Behind The Code
 
 The code is well-documented, so that it is easily possible to read the comments in the code to understand the logic. However, here is the summary of the actions taken that are taken by the code:
 
